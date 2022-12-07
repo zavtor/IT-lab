@@ -2,7 +2,9 @@
 ### Розробка класів
 
 **DataBase** – клас бази даних, містить поле назви Name та колекцію таблиць Tables:
--[DataBase](https://github.com/zavtor/IT-lab/blob/main/DB/Entities/DataBase.cs)
+
+- [DataBase](https://github.com/zavtor/IT-lab/blob/main/DB/Entities/DataBase.cs)
+
 **Table** – клас таблиці, містить поле назви Name та колекції рядків Rows та стовпчиків Columns:
 
 **Column** – абстрактний клас стовпчика, від якого наслідуємо класи стовпчиків різних типів. Містить поле назви Name, поле типу Type та абстрактний метод валідації значень Validate, що уточнюється у нащадках відповідно до типів стовпчиків:
