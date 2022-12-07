@@ -11,7 +11,7 @@
 При завантаженні текстових файлів вони зберігаються на сервері й перейменовуються за наступною схемою: TableName_ColumnName_RowId_FileName. Зважаючи на те, що імена таблиць та стовпчиків у даній таблиці не можуть повторюватися, а ідентифікатор для кожного рядку присвоюється за принципом автоінкременту, суперечливості не виникає.
 Завантажити з/на сервер можна також і базу даних:
 
-< [HttpPost]
+> [HttpPost]
 [ValidateAntiForgeryToken]
 public IActionResult Open(IFormFile fileTdb) {
     using (var stream = new FileStream(_tmpFilePath, FileMode.Create)) {
@@ -31,7 +31,8 @@ public IActionResult Save() {
     string fileName = $"{_dbManager.Database.Name}.tdb";
 
     return File(dbBytes, "application/octet-stream", fileName);
-} >
+} 
+>
 
 
 У даному Web-проекті використовується тема Sketchy із сайту bootswatch.com. Для того щоб змінити тему проекту, потрібно завантажити файли теми bootstrap.css та bootstrap.min.css і помістити їх у папку wwwroot/lib/bootstrap/dist/css.
