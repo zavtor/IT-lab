@@ -5,7 +5,7 @@
 ## Проведення unit-тестування (11 тестів)
 Зробимо unit-тести на валідацію та варіантну операцію за допомогою фреймворку xUnit:
 
--[Unit Test](https://github.com/zavtor/IT-lab/blob/main/DB/xUnitTest/UnitTest.cs)
+- [Unit Test](https://github.com/zavtor/IT-lab/blob/main/DB/xUnitTest/UnitTest.cs)
 
 
 
