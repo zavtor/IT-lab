@@ -7,5 +7,6 @@
 
 - [Unit Test](https://github.com/zavtor/IT-lab/blob/main/DB/xUnitTest/UnitTest.cs)
 
+![Test](https://github.com/zavtor/IT-lab/blob/main/png/stage3/test.png)
 
 
