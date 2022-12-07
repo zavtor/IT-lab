@@ -1,7 +1,7 @@
 # Використання UML при проектуванні та специфікації програмних систем.
 
 ## Діаграми прецедентів
-![Діаграма прецедентів](https://github.com/zavtor/IT-lab/blob/main/png/stage1/1.png)
+![Діаграма прецедентів](https://github.com/zavtor/IT-lab/blob/main/png/stage0/uml.jpg)
 
 ### Потоки подій до прецедентів
 
@@ -69,5 +69,5 @@
 -	Потік повертається на етап 2 основного потоку.
 
 **Діаграма класів**
-![Діаграма класів](https://github.com/zavtor/IT-lab/blob/main/png/stage1/2.png)
+![Діаграма класів](https://github.com/zavtor/IT-lab/blob/main/png/stage1/1.png)
 
