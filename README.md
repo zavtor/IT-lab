@@ -44,5 +44,5 @@
 - [Етап 10 - REST web-сервіси](https://github.com/zavtor/IT-lab/blob/main/lab/stage10.md)
 - [Етап 11 - HATEOAS](https://github.com/zavtor/IT-lab/blob/main/lab/stage10.md)
 - [Етап 12 - Розробка OpenAPI Specificatio](https://github.com/zavtor/IT-lab/blob/main/lab/stage10.md)
-- [Step 18 - Web-проект (ASP.NET MVC)]()
+- [Step 18 - Web-проект (ASP.NET MVC)](https://github.com/zavtor/IT-lab/blob/main/lab/stage18.md)
 - [Step 24 - Варіант проекту з використанням реляційної СУБД]()
