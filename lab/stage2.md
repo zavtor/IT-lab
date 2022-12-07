@@ -18,3 +18,6 @@
 - [Row](https://github.com/zavtor/IT-lab/blob/main/DB/Entities/Row.cs)
 
 **DatabaseManager** – клас для керування всіма операціями над базою даних, реалізований за патерном проектування Singleton:
+
+- [DatabaseManager](https://github.com/zavtor/IT-lab/blob/main/DB/Entities/DatabaseManager.cs)
+
