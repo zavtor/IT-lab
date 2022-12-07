@@ -10,7 +10,7 @@
 - [ConfigureServices](https://github.com/zavtor/IT-lab/blob/main/Containers/RestWebApi/ConfigureServices.cs)
 
 Тепер наведемо приклад методу, що відповідає запиту на оновлення рядку.
-![UpdateRow](https://github.com/zavtor/IT-lab/blob/main/Containers/RestWebApi/UpdateRow.cs)
+- [UpdateRow](https://github.com/zavtor/IT-lab/blob/main/Containers/RestWebApi/UpdateRow.cs)
 
 Нижче наведено приклад виконання POST-запиту створення бази даних:
 
