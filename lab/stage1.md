@@ -83,7 +83,7 @@
 ![Видалення бази даних](https://github.com/zavtor/IT-lab/blob/main/png/stage1/4.png)
 
 ### Завантаження бази даних
-![Завантаження бази даних](https://github.com/zavtor/IT-lab/blob/main/png/stage1/4.png)
+![Завантаження бази даних](https://github.com/zavtor/IT-lab/blob/main/png/stage1/5.png)
 
 ## Діаграми компонентів
 
