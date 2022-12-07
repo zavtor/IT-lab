@@ -37,8 +37,8 @@
 
 ## Етапи
 
-- [Етап 0 - Попередній етап]()
-- [Етап 1 - Використання UML]()
+- [Етап 0 - Попередній етап](https://github.com/zavtor/IT-lab/blob/main/lab/stage0.md)
+- [Етап 1 - Використання UML](https://github.com/zavtor/IT-lab/blob/main/lab/stage1.md)
 - [Етап 2 - Розробка локальної версії СУТБД](https://github.com/zavtor/IT-lab/blob/main/lab/stage2.md)
 - [Етап 3 - Unit тести]()
 - [Етап 10 - REST web-сервіси]()
