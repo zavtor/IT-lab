@@ -18,5 +18,7 @@
 
 У запитах також враховані можливі помилкові ситуації: наприклад, якщо ми спробуємо отримати список рядків ще не створеної таблиці, то буде виведено повідомлення про помилку:
 
+![Validation](https://github.com/zavtor/IT-lab/blob/main/png/stage10/2.png)
+
 Відповідні коментарі до статус-кодів можна дослідити перед виконанням запиту:
-![](https://github.com/zavtor/IT-lab/blob/main/lab/stage10.md)
+![Coments](https://github.com/zavtor/IT-lab/blob/main/png/stage10/3.png)
