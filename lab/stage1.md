@@ -1,4 +1,4 @@
 # Використання UML при проектуванні та специфікації програмних систем.
 
 ## Діаграми прецедентів
-![Діаграма прецедентів] (https://github.com/zavtor/IT-lab/blob/main/png/stage1/1.png)
+![Діаграма прецедентів](https://github.com/zavtor/IT-lab/blob/main/png/stage1/1.png)
