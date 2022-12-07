@@ -10,28 +10,7 @@
 
 При завантаженні текстових файлів вони зберігаються на сервері й перейменовуються за наступною схемою: TableName_ColumnName_RowId_FileName. Зважаючи на те, що імена таблиць та стовпчиків у даній таблиці не можуть повторюватися, а ідентифікатор для кожного рядку присвоюється за принципом автоінкременту, суперечливості не виникає.
 Завантажити з/на сервер можна також і базу даних:
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public IActionResult Open(IFormFile fileTdb) {
-        using (var stream = new FileStream(_tmpFilePath, FileMode.Create)) {
-        fileTdb.CopyTo(stream);
-    }
 
-    _dbManager.OpenDatabase(_tmpFilePath);
-    return RedirectToAction("Index", "Home");
-    }
-
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public IActionResult Save() {
-        _dbManager.SaveDatabase(_tmpFilePath);
-        
-    byte[] dbBytes = System.IO.File.ReadAllBytes(_tmpFilePath);
-    string fileName = $"{_dbManager.Database.Name}.tdb";
-
-     return File(dbBytes, "application/octet-stream", fileName);
-    } 
-
-
+- [Upload/Download](https://github.com/zavtor/IT-lab/blob/main/Containers/ASP.NET/Upload.cs)
 
 У даному Web-проекті використовується тема Sketchy із сайту bootswatch.com. Для того щоб змінити тему проекту, потрібно завантажити файли теми bootstrap.css та bootstrap.min.css і помістити їх у папку wwwroot/lib/bootstrap/dist/css.
